@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "TESLA";
+    src: url("Fonts/TESLA.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Mustica Pro;
+    src: url("Fonts/mustica_pro/MusticaPro-SemiBold.otf");
+}
+
+*{
+    background-color: #110B11;
+    color: white;
+    font-family: Mustica Pro, sans-serif;
+}
+
+#Brand{
+    font-family: TESLA, sans-serif;
+    color: #f35b04;
+    font-size: 40px;
+}
+
+li{
+    font-size: 25px;
+    font-family: Mustica Pro, sans-serif;
+}
+
+.search-btn{
+    color: #f35b04;
+    background-color: #110811;
+    border: #f35b04;
+}
+
+.group-headers{
+    font-family: Tesla, sans-serif;
+    color: #f35b04;
+}
+
+
+
+.card-group{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.content{
+}
+
+.images{
+
+}
+
+.poster{
+    width: 300px;
+
+}
+
+
+.description{
+
+}
+
+.acordian-image{
+    width: 150px;
+}
+
+.acordian-item-image{
+    width: 50px;
+}
+
+.modal-btn{
+    border: none;
+
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="index.html" class="navbar-brand" id="Brand"> THE CRITIC</a>
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#toggleMobileMenu"
+    aria-controls="toggleMobileMenu"
+    aria-expanded="false"
+    aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+        <ul class="navbar-nav text-center me-auto mb-2 mb-xl-0 text-white">
+            <li>
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Movies</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">Shows</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">News</a>
+            </li>
+            <li>
+                <a class="nav-link" href="guides.html">Guides</a>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+    <div id="carouselWithIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="0" class=""></li>
+            <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="1" class="active" aria-current="true"></li>
+            <li data-bs-target="#carouselWithIndicators" data-bs-slide-to="2" class=""></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <a href="">
+                    <img src="Assets%20/BPWF.jpeg" class="d-block w-100" alt="Wakanda Forever">
+                </a>
+            </div>
+            <div class="carousel-item active">
+                <a href="#">
+                    <img src="Assets%20/Avatar.PNG" class="d-block w-100" alt="Slide 2">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#">
+                    <img src="Assets%20/VN.PNG" class="d-block w-100" alt="Slide 3">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselWithIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+<!--    end of main carousel-->
+
+    <br/><br/>
+    <h3 class="group-headers">TRENDING</h3>
+    <hr/>
+
+
+    <div class="card-group col-4 col-6">
+        <div class="card ">
+            <img src="Assets%20/TGN.png" class="card-img-top" alt="card-group-image">
+            <div class="card-body">
+                <h5 class="card-title text-center">The Good Nurse (2022)</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets%20/Nope.webp" class="card-img-top" alt="card-group-image">
+            <div class="card-body">
+                <h5 class="card-title text-center">NOPE (2022)</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets%20/Strange.jpeg" class="card-img-top" alt="card-group-image">
+            <div class="card-body">
+                <h5 class="text-center">Stranger Things 4 (2022)</h5>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Assets%20/Till.png" class="card-img-top" alt="card-group-image">
+            <div class="card-body">
+                <h5 class="text-center">TILL (2022)</h5>
+            </div>
+        </div>
+    </div>
+
+
+
+    <br/><br/>
+    <h3 class="group-headers">COMING SOON!</h3>
+    <hr/>
+
+
+    <div class="card-group col-4 col-6">
+        <div class="card ">
+            <!-- Button trigger modal -->
+            <button type="button" class=" modal-btn" data-toggle="modal" data-target="#exampleModal">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/The_Little_Mermaid_%282023_film%29.png/220px-The_Little_Mermaid_%282023_film%29.png" class="card-img-top" alt="card-group-image">
+            </button>
+
+            <div class="card-body">
+                <h5 class="card-title text-center">The Little Mermaid (2023)</h5>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>The Little Mermaid</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video controls src="Assets%20/LM.mov"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <!-- Button trigger modal -->
+            <button type="button" class=" modal-btn SM" id="SM" data-toggle="modal" data-target="#mario">
+                <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mario-poster.jpg?q=50&fit=crop&dpr=1.5" class="card-img-top" alt="card-group-image">
+            </button>
+
+            <div class="card-body">
+                <h5 class="card-title text-center">The Super Mario Bros. Movie (2023)</h5>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="mario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>The Super Mario Bros. Movie</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video controls src="Assets%20/SM.MP4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="card ">
+            <!-- Button trigger modal -->
+            <button type="button" class=" modal-btn" data-toggle="modal" data-target="#antman">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Ant-Man_and_the_Wasp_Quantumania_poster.jpg/220px-Ant-Man_and_the_Wasp_Quantumania_poster.jpg" class="card-img-top" alt="card-group-image">
+            </button>
+
+            <div class="card-body">
+                <h5 class="card-title text-center">Ant-Man and the Wasp: Quantumania (2023)</h5>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="antman" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Ant-Man and the Wasp: Quantumania</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video controls src="Assets%20/AMQ.MP4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="card">
+            <!-- Button trigger modal -->
+            <button type="button" class=" modal-btn" data-toggle="modal" data-target="#shrek">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="card-group-image">
+            </button>
+
+            <div class="card-body">
+                <h5 class="card-title text-center">Shrek 5 (2023)</h5>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="shrek" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Shrek 5</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <video controls src="Assets%20/Shrek.mov"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<!--    container end-->
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
